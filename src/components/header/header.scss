@@ -1,0 +1,41 @@
+.main-header {
+  padding: 20px 0px;
+  font-size: 24px;
+  height: 60px;
+  width: 100%;
+  color: #333;
+  font-family: "Raleway", serif;
+}
+
+.main-header-logo {
+  font-size: 24px;
+  width: 35%;
+  float: left;
+  height: 100%;
+  padding: 0.5% 2.5%;
+  letter-spacing: 2px;
+}
+
+.main-header-list {
+  font-size: 14px;
+  width: 60%;
+  float: left;
+  height: 100%;
+}
+.main-header-list > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.main-header-list > ul > li {
+  float: left;
+  padding: 2% 5%;
+  width: 15%;
+  text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.main-header-list > ul > li:hover {
+  color: goldenrod;
+}
