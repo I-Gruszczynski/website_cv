@@ -3,7 +3,6 @@ import "./header.scss";
 const Header = () => {
   return (
     <div className="main-header">
-      <div className="main-header-logo">Igor Gruszczyński</div>
       <div className="main-header-list">
         <ul>
           <li>About me</li>
