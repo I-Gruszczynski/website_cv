@@ -1,5 +1,8 @@
 .main-header {
   padding: 20px 0px;
+  position: absolute;
+  top: -50px;
+  z-index: 0;
   font-size: 24px;
   height: 60px;
   width: 100%;
@@ -7,18 +10,9 @@
   font-family: "Raleway", serif;
 }
 
-.main-header-logo {
-  font-size: 24px;
-  width: 35%;
-  float: left;
-  height: 100%;
-  padding: 0.5% 2.5%;
-  letter-spacing: 2px;
-}
-
 .main-header-list {
   font-size: 14px;
-  width: 60%;
+  width: 100%;
   float: left;
   height: 100%;
 }
@@ -29,13 +23,28 @@
   height: 100%;
 }
 .main-header-list > ul > li {
+  position: relative;
   float: left;
-  padding: 2% 5%;
   width: 15%;
+  margin: 0 2.5%;
   text-align: center;
   letter-spacing: 2px;
   cursor: pointer;
+  height: 100%;
+  padding-top: 20px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  font-weight: 600;
 }
+.main-header-list > ul > li:first-child {
+  margin-left: 0px;
+}
+.main-header-list > ul > li:last-child {
+  margin-right: 0px;
+  padding: 20px 2% 0px 2%;
+}
+
 .main-header-list > ul > li:hover {
-  color: goldenrod;
+  transform: translate(0px, -30px);
 }
