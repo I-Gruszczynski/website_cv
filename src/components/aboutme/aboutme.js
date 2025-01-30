@@ -1,10 +1,13 @@
 import "./aboutme.scss";
+import { FaNewspaper } from "react-icons/fa6";
+import { IoLogoGameControllerB } from "react-icons/io";
 
 const aboutme = () => {
   return (
     <div className="main-aboutme-bg">
       <div className="main-aboutme">
         <h1>About me</h1>
+        <hr />
         <div className="main-aboutme-text">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ex
@@ -30,8 +33,33 @@ const aboutme = () => {
             tempor, ullamcorper lectus at, pharetra lorem.
           </p>
         </div>
-        <div className="main-aboutme-image">
-          <img src="./logo192.png" alt="Igor" />
+        <div className="main-aboutme-text-do">
+          <h2>What I'm doing</h2>
+          <div className="main-aboutme-text-do-box">
+            <div className="main-aboutme-text-do-box-img">
+              <FaNewspaper size={50} color="#ccc" />
+            </div>
+            <div className="main-aboutme-text-do-box-desc">
+              <h3>Web developer</h3>
+              <p>
+                In sollicitudin nunc id massa placerat volutpat. Mauris in
+                tortor a ligula vulputate condimentum non nec dolor.
+              </p>
+            </div>
+          </div>
+          <div className="main-aboutme-text-do-box">
+            <div className="main-aboutme-text-do-box-img">
+              <IoLogoGameControllerB size={50} color="#ccc" />
+            </div>
+            <div className="main-aboutme-text-do-box-desc">
+              <h3>Game developer</h3>
+              <p>
+                Donec et enim eu quam suscipit gravida. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
