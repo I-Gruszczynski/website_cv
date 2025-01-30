@@ -1,19 +1,35 @@
 .main-aboutme-bg {
-  background-color: #313b72;
-  height: 800px;
+  margin: 20px;
 }
 .main-aboutme {
-  width: 80%;
-  margin: auto;
+  padding: 40px;
 }
-.main-aboutme-text {
-  width: 50%;
-  float: left;
-  margin: 2.5% 5%;
-  color: white;
-}
-.main-aboutme-image {
+.main-aboutme > hr {
   width: 30%;
+  height: 4px;
+  background-color: #3f1eb6;
+  margin: 0px;
+}
+.main-aboutme-text-do-box {
   float: left;
+  width: 39%;
   margin: 2.5% 5%;
+  height: 160px;
+  border: 2px solid #3f1eb6;
+  border-radius: 20px;
+}
+.main-aboutme-text-do-box-img {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding-top: 50px;
+}
+.main-aboutme-text-do-box-desc {
+  padding-top: 10px;
+  float: left;
+  width: 70%;
+}
+.main-aboutme-text-do-box-desc > p {
+  font-size: 12px;
+  padding-right: 40px;
 }
