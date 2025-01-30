@@ -1,0 +1,63 @@
+.mainInfo {
+  margin: 100px 50px;
+  text-align: center;
+}
+.mainInfo > h1 {
+  font-weight: 300;
+}
+.mainInfo-icons {
+  margin: 0 auto;
+  width: 120px;
+  height: 60px;
+}
+.mainInfo-icons-box {
+  float: left;
+  margin: 5px;
+}
+.mainInfo-context {
+  width: 60%;
+  margin: 0 auto;
+}
+.mainInfo-context-location > p,
+.mainInfo-context-phonenumber > p,
+.mainInfo-context-email > p,
+.mainInfo-context-location > svg,
+.mainInfo-context-phonenumber > svg,
+.mainInfo-context-email > svg {
+  float: left;
+  text-align: center;
+}
+.mainInfo-context-location > p,
+.mainInfo-context-phonenumber > p,
+.mainInfo-context-email > p {
+  margin: 0px 20px;
+  font-weight: 600;
+  color: #777;
+}
+.mainInfo-context-location,
+.mainInfo-context-phonenumber,
+.mainInfo-context-email {
+  margin: 20px 0px;
+  height: 30px;
+  width: 100%;
+}
+.mainInfo-context-location {
+  margin-top: 40px;
+}
+.mainInfo-btn > button {
+  width: 220px;
+  height: 60px;
+  background-color: #3f1eb6;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 10px;
+}
+.mainInfo-btn > button:hover {
+  background-color: #4d25dd;
+  cursor: pointer;
+}
+.mainInfo-btn > button > svg {
+  margin-right: 10px;
+}

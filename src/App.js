@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header/header.js";
 import Aboutme from "./components/aboutme/aboutme.js";
 import { useEffect, useRef, useState } from "react";
+import Information from "./components/information/information.js";
 
 function App() {
   const [aboutme, setAboutMe] = useState(true);
@@ -77,6 +78,7 @@ function App() {
           height={150}
           alt="Igor"
         />
+        <Information />
       </div>
 
       <div className="main-content">
