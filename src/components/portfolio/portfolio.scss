@@ -1,0 +1,72 @@
+.main-portfolio-bg {
+  margin: 20px;
+}
+.main-portfolio {
+  padding: 40px;
+}
+.main-portfolio > hr {
+  width: 30%;
+  height: 4px;
+  background-color: #3f1eb6;
+  margin: 0px;
+}
+.main-portfolio-nav {
+  margin-top: 10px;
+}
+.main-portfolio-nav-noactive {
+  border: 1px solid#777;
+  background-color: #ccc;
+  border-radius: 20px;
+  margin: 10px;
+  height: 40px;
+  width: 80px;
+}
+.main-portfolio-nav-active {
+  border: 1px solid#3f1eb6;
+  background-color: white;
+  color: #3f1eb6;
+  border-radius: 20px;
+  margin: 10px;
+  height: 40px;
+  width: 80px;
+}
+.main-portfolio-nav-noactive:hover {
+  border: 1px solid#3f1eb6;
+  background-color: white;
+  color: #3f1eb6;
+  cursor: pointer;
+}
+.main-portfolio-text-box > h2 {
+  text-align: center;
+}
+.main-portfolio-text-box {
+  float: left;
+  width: 25%;
+  margin: 1.5%;
+  border: 2px solid #3f1eb6;
+  border-radius: 20px;
+  padding: 20px;
+  height: 300px;
+}
+.main-portfolio-text-box-desc {
+  height: 130px;
+}
+.main-portfolio-text-box-links {
+  text-align: center;
+}
+.main-portfolio-text-box-links > button {
+  height: 40px;
+  width: 40%;
+  margin: 5%;
+  color: white;
+  background-color: #3f1eb6;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+}
+.main-portfolio-text-box-links > button:hover {
+  color: #3f1eb6;
+  background-color: white;
+  border: 1px solid #3f1eb6;
+  cursor: pointer;
+}

@@ -4,6 +4,7 @@ import Aboutme from "./components/aboutme/aboutme.js";
 import { useEffect, useRef, useState } from "react";
 import Information from "./components/information/information.js";
 import Education from "./components/education/education.js";
+import Portfolio from "./components/portfolio/portfolio.js";
 
 function App() {
   const [aboutme, setAboutMe] = useState(true);
@@ -97,12 +98,8 @@ function App() {
         />
         <div className="main-content-text">
           {aboutme && <Aboutme />}
-          {education && (
-            <p>
-              <Education />
-            </p>
-          )}
-          {portfolio && <p>3</p>}
+          {education && <Education />}
+          {portfolio && <Portfolio />}
           {technology && <p>4</p>}
           {achievements && <p>5</p>}
         </div>

@@ -7,13 +7,13 @@
 }
 .main-mybio {
   position: relative;
-  width: 25%;
+  width: 20%;
   height: 60vh;
   background-color: white;
   margin: 7.5% 2.5% 5% 5%;
   float: left;
   padding: 0px;
-  border-radius: 100px;
+  border-radius: 50px;
   box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
 }
 .main-content {
@@ -28,7 +28,7 @@
   width: 100%;
   height: 70vh;
   background-color: white;
-  border-radius: 0px 0px 100px 100px;
+  border-radius: 0px 0px 50px 50px;
   box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
   z-index: 1;
 }
