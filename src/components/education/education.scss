@@ -1,0 +1,37 @@
+.main-education-bg {
+  margin: 20px;
+}
+.main-education {
+  padding: 40px;
+}
+.main-education > hr {
+  width: 30%;
+  height: 4px;
+  background-color: #3f1eb6;
+  margin: 0px;
+}
+.main-education-text-school {
+  width: 44%;
+  float: left;
+  padding: 2.5%;
+}
+.main-education-text-school:first-child {
+  border-right: 1px solid #ccc;
+}
+.main-education-text-school-header {
+  height: 100px;
+}
+.main-education-text-school-header > img {
+  float: left;
+  width: 20%;
+}
+.main-education-text-school-header > h2 {
+  float: left;
+  width: 70%;
+  padding: 0 5%;
+}
+.main-education-text-school-context {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 2.5% 5%;
+}
