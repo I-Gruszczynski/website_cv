@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import Information from "./components/information/information.js";
 import Education from "./components/education/education.js";
 import Portfolio from "./components/portfolio/portfolio.js";
+import Technology from "./components/technology/technology.js";
 
 function App() {
   const [aboutme, setAboutMe] = useState(true);
@@ -100,7 +101,7 @@ function App() {
           {aboutme && <Aboutme />}
           {education && <Education />}
           {portfolio && <Portfolio />}
-          {technology && <p>4</p>}
+          {technology && <Technology />}
           {achievements && <p>5</p>}
         </div>
       </div>
