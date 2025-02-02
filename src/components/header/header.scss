@@ -38,6 +38,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-size: 16px;
+  transition: transform 1000ms ease-in-out;
 }
 .main-header-list > ul > li:first-child {
   margin-left: 0px;

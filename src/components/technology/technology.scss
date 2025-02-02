@@ -1,0 +1,76 @@
+.main-technology-bg {
+  margin: 20px;
+}
+.main-technology {
+  padding: 40px;
+}
+.main-technology > hr {
+  width: 30%;
+  height: 4px;
+  background-color: #3f1eb6;
+  margin: 0px;
+}
+.main-technology-box {
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+.main-technology-box > h3 {
+  color: #777;
+}
+.main-technology-box > img {
+  margin: 15px 100px;
+  cursor: pointer;
+}
+.main-technology-box-lang {
+  margin: 30px auto 15px auto;
+  position: relative;
+  display: block;
+}
+.main-technology-box-lang > img {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.main-technology-box-mainlang {
+  margin: 30px auto 15px auto;
+  position: relative;
+}
+.main-technology-box-mainlang > img {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.main-technology-box-lang-paragrath {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  top: 0px;
+  right: 40px;
+  text-align: left;
+}
+.main-technology-box-lang-paragrath-active {
+  opacity: 1;
+  transition: opacity 2s ease-out;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  top: 0px;
+  right: 40px;
+  text-align: left;
+}
+.main-technology-box-database {
+  margin: 15px auto;
+  position: relative;
+}
+.main-technology-box-database > img {
+  margin: auto 15px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.main-technology-box-img-active {
+  background-color: #3f1eb6;
+}
