@@ -37,6 +37,7 @@
   cursor: pointer;
 }
 .main-portfolio-text-box > h2 {
+  margin-top: 0px;
   text-align: center;
 }
 .main-portfolio-text-box {
@@ -46,10 +47,13 @@
   border: 2px solid #3f1eb6;
   border-radius: 20px;
   padding: 20px;
-  height: 300px;
+  height: auto;
 }
 .main-portfolio-text-box-desc {
-  height: 130px;
+  height: 150px;
+}
+.main-portfolio-text-box-tech {
+  height: 50px;
 }
 .main-portfolio-text-box-links {
   text-align: center;

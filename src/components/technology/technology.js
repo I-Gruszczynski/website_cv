@@ -51,8 +51,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              React is the library for web and native user interfaces. Written
+              in JavaScript.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -81,8 +81,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              Node.js is a library designed to build scalable network
+              applications.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -111,8 +111,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              .NET Core is a modern, high-performance web development framework
+              for building web apps in C#.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -141,8 +141,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              Bootstrap is the HTML and CSS framework for developing responsive
+              websites.
             </p>
           </div>
         </div>
@@ -215,8 +215,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              The three main languages use to build websites. HTML, CSS, and
+              JavaScript.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -246,8 +246,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              C# is object-oriented programming language that enables developers
+              to build applications.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -277,8 +277,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              SCSS is a preprocessor scripting language that extends CSS with
+              new features.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -308,8 +308,7 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              PHP is a general-purpose scripting language and interpreter.
             </p>
           </div>
         </div>
@@ -342,8 +341,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              VSC is an open-source code editor primarily used to correct and
+              repair cloud and web applications coding.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -373,8 +372,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              VS is a comprehensive integrated development environment that you
+              can use to write, edit and build code.
             </p>
           </div>
           <div className="main-technology-box-lang">
@@ -404,8 +403,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              Unity is a game engine offering a robust environment for creating
+              2D and 3D interactive experiences.
             </p>
           </div>
           <div
@@ -459,8 +458,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              sdaeafeffadaergrgnrfninwidand wiadnaiwnd na wninani awda wnd na
-              wnina
+              MySQL and MongoDB are database management systems (RDBMS) that's
+              used to store and manage data.
             </p>
           </div>
         </div>
