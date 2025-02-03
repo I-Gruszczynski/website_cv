@@ -10,22 +10,16 @@ const aboutme = () => {
         <hr />
         <div className="main-aboutme-text">
           <p>
-            Master Student of computer science at the Zhongnan University of
-            Economics and Law in Wuhan . My main direction of interest is
-            creating web applications, mainly as a the frontend developer. As a
-            hobby, I also create computer games based on the Unity engine.
-          </p>
-          <p>
-            Maecenas ut pharetra turpis. Nunc vitae odio ligula. Pellentesque
-            consectetur nisl vitae tincidunt ultricies. Sed vel elit ligula.
-            Nunc at quam congue, faucibus eros non, mollis mi. Nullam risus
-            urna, egestas quis urna id, malesuada lacinia lacus. Nunc aliquam
-            nisi interdum sem rhoncus, vel dignissim nisl sagittis. Mauris id
-            risus arcu. Etiam quis tempus metus. In sollicitudin nunc id massa
-            placerat volutpat. Mauris in tortor a ligula vulputate condimentum
-            non nec dolor. In blandit purus quis elit suscipit volutpat. Duis
-            non urna at purus semper eleifend eget eu sem. Donec eget risus
-            tempor, ullamcorper lectus at, pharetra lorem.
+            Passionate Computer Science student from Poland. Currently on Master
+            Degree in on of university in China, I'm strong interest in web
+            application development and Unity game development. Proficient in
+            front-end and back-end web technologies, including HTML, CSS,
+            JavaScript, and frameworks like React and Node. Experienced in
+            building interactive and engaging Unity games using C# and the Unity
+            Engine. Eager to learn new technologies, solve complex problems, and
+            contribute to innovative projects. Seeking opportunities to apply my
+            skills in real-world applications and enhance my expertise in
+            software development.
           </p>
         </div>
         <div className="main-aboutme-text-do">
@@ -37,8 +31,8 @@ const aboutme = () => {
             <div className="main-aboutme-text-do-box-desc">
               <h3>Web developer</h3>
               <p>
-                In sollicitudin nunc id massa placerat volutpat. Mauris in
-                tortor a ligula vulputate condimentum non nec dolor.
+                Create modern and responsive website using mostly the React and
+                Node framework. Specialize in frond-end approach.
               </p>
             </div>
           </div>
@@ -49,9 +43,8 @@ const aboutme = () => {
             <div className="main-aboutme-text-do-box-desc">
               <h3>Game developer</h3>
               <p>
-                Donec et enim eu quam suscipit gravida. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
+                In free time creating 2D indie games using Unity engine and C#
+                language as a solo developer.
               </p>
             </div>
           </div>

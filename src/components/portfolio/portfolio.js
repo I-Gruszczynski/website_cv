@@ -41,18 +41,16 @@ const Portfolio = () => {
         {websites && (
           <div className="main-portfolio-text">
             <div className="main-portfolio-text-box">
-              <h2>Lorem ipsum</h2>
+              <h2>Personal Travel Blog</h2>
               <div className="main-portfolio-text-box-desc">
                 <p>
-                  Donec ultrices sapien nisi, dignissim laoreet lacus egestas
-                  id. Cras porta purus quis pellentesque gravida. Cras ut
-                  bibendum nisi, a rutrum odio. Etiam eu tincidunt elit, eu
-                  sagittis augue.
+                  My personal travel blog, where I post information and stories
+                  about my travels and volunteering around the world.
                 </p>
               </div>
               <div className="main-portfolio-text-box-tech">
                 <p>
-                  <b>Technology: </b>React.js, SCSS
+                  <b>Technology: </b>React.js, Node.js, SCSS, MongoDB
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
@@ -61,38 +59,36 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="main-portfolio-text-box">
-              <h2>Donec eget risus</h2>
+              <h2>OnTime app</h2>
               <div className="main-portfolio-text-box-desc">
                 <p>
-                  Nulla congue posuere purus, sit amet viverra urna tincidunt
-                  at. Sed mattis iaculis nulla eu imperdiet. Cras convallis
-                  dapibus neque at vehicula. Aenean non turpis vel felis varius
-                  sodales ac sit amet risus.
+                  OnTime is an online booking application that is made available
+                  for available dates and free appointments on the
+                  website.Thanks to appliacation you can make an appointment
+                  with many entrepreneurs, such as hairdressers.
                 </p>
               </div>
               <div className="main-portfolio-text-box-tech">
                 <p>
-                  <b>Technology: </b>React.js, SCSS
+                  <b>Technology: </b>React.js, CSS, C#, MySQL
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
-                <button>Page</button>
                 <button>Github</button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
-              <h2>Phasellus porttitor</h2>
+              <h2>Movies Browser</h2>
               <div className="main-portfolio-text-box-desc">
                 <p>
-                  Donec interdum sollicitudin sem sed placerat. Nulla eros
-                  ligula, volutpat in semper suscipit, scelerisque nec nibh.
-                  Cras non aliquet mi. Integer vestibulum placerat hendrerit.
-                  Cras sagittis aliquam ultrices. Donec lorem orci.
+                  A prototype of an application imitating a website dedicated to
+                  films and series. It has a sample database of films and series
+                  on which we can perform CRUD operations
                 </p>
               </div>
               <div className="main-portfolio-text-box-tech">
                 <p>
-                  <b>Technology: </b>React.js, SCSS
+                  <b>Technology: </b>.NET, jQuery
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
@@ -104,65 +100,47 @@ const Portfolio = () => {
         {games && (
           <div className="main-portfolio-text">
             <div className="main-portfolio-text-box">
-              <h2>Lorem game</h2>
+              <h2>Seconds to Death</h2>
               <div className="main-portfolio-text-box-desc">
                 <p>
-                  Donec ultrices sapien nisi, dignissim laoreet lacus egestas
-                  id. Cras porta purus quis pellentesque gravida. Cras ut
-                  bibendum nisi, a rutrum odio. Etiam eu tincidunt elit, eu
-                  sagittis augue.
-                </p>
-              </div>
-              <div className="main-portfolio-text-box-tech">
-                <p>
-                  <b>Technology: </b>React.js, SCSS
+                  You play as a night ambulance driver, your task is to get to
+                  the scene of a car accident as quickly as possible. While
+                  driving, you have to watch out for obstacles in the form of
+                  speeding vehicles and limited visibility conditions on the
+                  road.2D game made for GameJam 24h in Unity.
                 </p>
               </div>
 
               <div className="main-portfolio-text-box-links">
                 <button>Link</button>
-                <button>Github</button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
-              <h2>Donec game risus</h2>
+              <h2>OFFLINE</h2>
               <div className="main-portfolio-text-box-desc">
                 <p>
-                  Nulla congue posuere purus, sit amet viverra urna tincidunt
-                  at. Sed mattis iaculis nulla eu imperdiet. Cras convallis
-                  dapibus neque at vehicula. Aenean non turpis vel felis varius
-                  sodales ac sit amet risus.
-                </p>
-              </div>
-              <div className="main-portfolio-text-box-tech">
-                <p>
-                  <b>Technology: </b>React.js, SCSS
+                  On the day of the premiere of your favorite game, the internet
+                  suddenly disappears, people in the city go crazy, they start
+                  shooting and fighting, they behave like animals, restore the
+                  internet in the city and play your favorite game!
                 </p>
               </div>
 
               <div className="main-portfolio-text-box-links">
                 <button>Link</button>
-                <button>Github</button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
-              <h2>Game porttitor</h2>
+              <h2>Dissergeon</h2>
               <div className="main-portfolio-text-box-desc">
                 <p>
-                  Donec interdum sollicitudin sem sed placerat. Nulla eros
-                  ligula, volutpat in semper suscipit, scelerisque nec nibh.
-                  Cras non aliquet mi. Integer vestibulum placerat hendrerit.
-                  Cras sagittis aliquam ultrices. Donec lorem orci.
-                </p>
-              </div>
-              <div className="main-portfolio-text-box-tech">
-                <p>
-                  <b>Technology: </b>React.js, SCSS
+                  You play as an adventurer whose task is to explore an
+                  abandoned dungeon. Fight monsters, look for hidden treasures,
+                  level up your character. How low can you go in the dungeon?
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
                 <button>Link</button>
-                <button>Github</button>
               </div>
             </div>
           </div>

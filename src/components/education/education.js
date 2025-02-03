@@ -24,12 +24,12 @@ const Education = () => {
               </p>
             </div>
             <p>
-              Fusce justo velit, fringilla blandit enim a, interdum pulvinar
-              lorem. Nam dictum, libero luctus sollicitudin vestibulum, ex quam
-              pellentesque nulla, id finibus est lacus id mauris. Nam ac tempor
-              diam. Donec ultrices sapien nisi, dignissim laoreet lacus egestas
-              id. Cras porta purus quis pellentesque gravida. Cras ut bibendum
-              nisi, a rutrum odio. Etiam eu tincidunt elit, eu sagittis augue.
+              Kazimierz Wielki University is a public university founded in 1968
+              in Bydgoszcz. University is a dynamically developing school of
+              higher education, today the largest in the city and the second
+              largest in the Kujawsko-Pomorskie Province, both as for number of
+              professors, number of majors and educational forms offered and the
+              number of students and graduates.
             </p>
           </div>
           <div className="main-education-text-school">
@@ -52,13 +52,15 @@ const Education = () => {
               </p>
             </div>
             <p>
-              Vestibulum mollis, justo ac porttitor ultricies, nibh purus
-              tristique purus, pulvinar faucibus orci ipsum non velit. Nulla
-              blandit odio erat, nec aliquet velit efficitur a. Morbi mi erat,
-              fermentum sed finibus eu, ultrices ut ligula. Curabitur arcu enim,
-              aliquam a augue sit amet, bibendum consequat eros. Duis aliquet
-              sodales nunc, at pulvinar dui pharetra ac. Nullam tristique
-              fringilla erat in interdum.
+              Zhongnan University of Economics and Law (ZUEL) is located in
+              Wuhan, a metropolis of Central China. It is an institution of
+              higher education under the Ministry of Education of the People’s
+              Republic of China. ZUEL has established itself as a top university
+              directly under the Ministry of Education and has been appointed as
+              a participant in the “world-class university and first-class
+              disciplines”, the national development project committed to
+              achieving first-rate education and scholarships that meet
+              international standards.
             </p>
           </div>
         </div>
