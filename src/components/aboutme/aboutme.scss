@@ -13,8 +13,8 @@
 .main-aboutme-text-do-box {
   float: left;
   width: 39%;
-  margin: 2.5% 5%;
-  height: 160px;
+  margin: 0% 5% 2.5% 5%;
+  height: 140px;
   border: 2px solid #3f1eb6;
   border-radius: 20px;
 }
@@ -29,7 +29,56 @@
   float: left;
   width: 70%;
 }
+.main-aboutme-text-do-box-desc > h3 {
+  margin-bottom: 0px;
+}
 .main-aboutme-text-do-box-desc > p {
-  font-size: 12px;
+  font-size: 14px;
   padding-right: 40px;
+  margin-top: 5px;
+}
+.main-aboutme-text-lang > h2 {
+  margin-bottom: 0px;
+}
+.main-aboutme-text-lang-box {
+  position: relative;
+  width: 40%;
+  float: left;
+}
+.main-aboutme-text-lang-bar-pl {
+  position: absolute;
+  height: 6px;
+  margin: 0px;
+  background-color: #3f1eb6;
+  color: #3f1eb6;
+  width: 80%;
+}
+.main-aboutme-text-lang-bar-eng {
+  position: absolute;
+  height: 6px;
+  margin: 0px;
+  background-color: #3f1eb6;
+  color: #3f1eb6;
+  width: 60%;
+}
+.main-aboutme-text-lang-bar-ch {
+  position: absolute;
+  height: 6px;
+  margin: 0px;
+  background-color: #3f1eb6;
+  color: #3f1eb6;
+  width: 20%;
+}
+.main-aboutme-text-lang-bar-jp {
+  position: absolute;
+  height: 6px;
+  margin: 0px;
+  background-color: #3f1eb6;
+  color: #3f1eb6;
+  width: 20%;
+}
+.main-aboutme-text-lang-bar-full {
+  width: 80%;
+  height: 6px;
+  margin: 0px;
 }
