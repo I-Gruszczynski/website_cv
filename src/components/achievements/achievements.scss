@@ -1,0 +1,66 @@
+.main-achievements-bg {
+  margin: 20px;
+}
+.main-achievements {
+  padding: 40px;
+}
+.main-achievements > hr {
+  width: 30%;
+  height: 4px;
+  background-color: #3f1eb6;
+  margin: 0px;
+}
+.main-achievements-nav {
+  margin-top: 10px;
+}
+.main-achievements-nav-noactive {
+  border: 1px solid#777;
+  background-color: #ccc;
+  border-radius: 20px;
+  margin: 10px;
+  height: 40px;
+  width: 100px;
+}
+.main-achievements-nav-active {
+  border: 1px solid#3f1eb6;
+  background-color: white;
+  color: #3f1eb6;
+  border-radius: 20px;
+  margin: 10px;
+  height: 40px;
+  width: 100px;
+}
+.main-achievements-nav-noactive:last-child {
+  width: 200px;
+}
+.main-achievements-nav-active:last-child {
+  width: 200px;
+}
+.main-achievements-nav-noactive:hover {
+  border: 1px solid#3f1eb6;
+  background-color: white;
+  color: #3f1eb6;
+  cursor: pointer;
+}
+.main-achievements-content-compet-box > img,
+.main-achievements-content-train-box > img {
+  width: 10%;
+  margin: 2.5%;
+  float: left;
+}
+.main-achievements-content-compet-box-text,
+.main-achievements-content-train-box-text {
+  width: 70%;
+  float: left;
+}
+.main-achievements-content-compet-box-text > p,
+.main-achievements-content-train-box-text > p {
+  margin-top: 5px;
+}
+.main-achievements-content-compet-box-text > h3,
+.main-achievements-content-train-box-text > h3 {
+  margin-bottom: 0px;
+}
+.main-achievements-content-cert-box-text {
+  width: 80%;
+}
