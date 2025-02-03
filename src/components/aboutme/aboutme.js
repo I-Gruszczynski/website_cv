@@ -48,6 +48,49 @@ const aboutme = () => {
               </p>
             </div>
           </div>
+          <div className="main-aboutme-text-lang">
+            <h2>Languages</h2>
+            <div className="main-aboutme-text-lang-box">
+              <p>Polish</p>
+              <hr className="main-aboutme-text-lang-bar-pl" />
+              <hr className="main-aboutme-text-lang-bar-full" />
+              <span
+                style={{ left: "78%", position: "relative", color: "#888" }}
+              >
+                C2
+              </span>
+            </div>
+            <div className="main-aboutme-text-lang-box">
+              <p>English</p>
+              <hr className="main-aboutme-text-lang-bar-eng" />
+              <hr className="main-aboutme-text-lang-bar-full" />
+              <span
+                style={{ left: "58%", position: "relative", color: "#888" }}
+              >
+                B2
+              </span>
+            </div>
+            <div className="main-aboutme-text-lang-box">
+              <p>Chinese</p>
+              <hr className="main-aboutme-text-lang-bar-ch" />
+              <hr className="main-aboutme-text-lang-bar-full" />
+              <span
+                style={{ left: "18%", position: "relative", color: "#888" }}
+              >
+                A1
+              </span>
+            </div>
+            <div className="main-aboutme-text-lang-box">
+              <p>Japanese</p>
+              <hr className="main-aboutme-text-lang-bar-jp" />
+              <hr className="main-aboutme-text-lang-bar-full" />
+              <span
+                style={{ left: "18%", position: "relative", color: "#888" }}
+              >
+                A1
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
