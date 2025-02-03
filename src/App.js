@@ -6,6 +6,7 @@ import Information from "./components/information/information.js";
 import Education from "./components/education/education.js";
 import Portfolio from "./components/portfolio/portfolio.js";
 import Technology from "./components/technology/technology.js";
+import Achievements from "./components/achievements/achievements.js";
 
 function App() {
   const [aboutme, setAboutMe] = useState(true);
@@ -24,6 +25,7 @@ function App() {
     if (aboutme) {
       aboutmeref.current.style.backgroundColor = "#fff";
       aboutmeref.current.style.translate = "0px -30px";
+      aboutmeref.current.style.transition = "translate 0.25s ease-in-out";
       aboutmeref.current.style.color = "#5026E8";
     } else {
       aboutmeref.current.style.backgroundColor = "#ccc";
@@ -34,6 +36,7 @@ function App() {
     if (education) {
       educationref.current.style.backgroundColor = "#fff";
       educationref.current.style.translate = "0px -30px";
+      educationref.current.style.transition = "translate 0.25s ease-in-out";
       educationref.current.style.color = "#5026E8";
     } else {
       educationref.current.style.backgroundColor = "#ccc";
@@ -44,6 +47,7 @@ function App() {
     if (portfolio) {
       portfolioref.current.style.backgroundColor = "#fff";
       portfolioref.current.style.translate = "0px -30px";
+      portfolioref.current.style.transition = "translate 0.25s ease-in-out";
       portfolioref.current.style.color = "#5026E8";
     } else {
       portfolioref.current.style.backgroundColor = "#ccc";
@@ -54,6 +58,7 @@ function App() {
     if (technology) {
       technologyref.current.style.backgroundColor = "#fff";
       technologyref.current.style.translate = "0px -30px";
+      technologyref.current.style.transition = "translate 0.25s ease-in-out";
       technologyref.current.style.color = "#5026E8";
     } else {
       technologyref.current.style.backgroundColor = "#ccc";
@@ -64,6 +69,7 @@ function App() {
     if (achievements) {
       achievementsref.current.style.backgroundColor = "#fff";
       achievementsref.current.style.translate = "0px -30px";
+      achievementsref.current.style.transition = "translate 0.25s ease-in-out";
       achievementsref.current.style.color = "#5026E8";
     } else {
       achievementsref.current.style.backgroundColor = "#ccc";
@@ -102,7 +108,7 @@ function App() {
           {education && <Education />}
           {portfolio && <Portfolio />}
           {technology && <Technology />}
-          {achievements && <p>5</p>}
+          {achievements && <Achievements />}
         </div>
       </div>
     </div>

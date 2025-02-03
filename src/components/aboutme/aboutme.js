@@ -10,15 +10,10 @@ const aboutme = () => {
         <hr />
         <div className="main-aboutme-text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ex
-            diam, venenatis vel porta vel, porta eget arcu. Mauris id dapibus
-            tellus. Fusce eu sapien quis massa venenatis bibendum. Donec ac
-            turpis enim. Aliquam at libero quis dui finibus finibus vitae sit
-            amet urna. Mauris in efficitur sem, nec fermentum purus. Donec et
-            enim eu quam suscipit gravida. Orci varius natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Maecenas id
-            leo dapibus, fermentum nisi ac, iaculis magna. Curabitur congue
-            laoreet dui, in facilisis dui congue at.
+            Master Student of computer science at the Zhongnan University of
+            Economics and Law in Wuhan . My main direction of interest is
+            creating web applications, mainly as a the frontend developer. As a
+            hobby, I also create computer games based on the Unity engine.
           </p>
           <p>
             Maecenas ut pharetra turpis. Nunc vitae odio ligula. Pellentesque
