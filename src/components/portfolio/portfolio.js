@@ -55,7 +55,14 @@ const Portfolio = () => {
               </div>
               <div className="main-portfolio-text-box-links">
                 <button>Page</button>
-                <button>Github</button>
+                <button>
+                  <a
+                    href="https://github.com/I-Gruszczynski/ZHP_Slupsk_Website"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
@@ -74,7 +81,11 @@ const Portfolio = () => {
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
-                <button>Github</button>
+                <button>
+                  <a href="https://github.com/ProjectBarber" target="_blank">
+                    Github
+                  </a>
+                </button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
@@ -92,7 +103,14 @@ const Portfolio = () => {
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
-                <button>Github</button>
+                <button>
+                  <a
+                    href="https://github.com/I-Gruszczynski/ASP.NET_Filmy"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -112,7 +130,14 @@ const Portfolio = () => {
               </div>
 
               <div className="main-portfolio-text-box-links">
-                <button>Link</button>
+                <button>
+                  <a
+                    href="https://filipmachalowski.itch.io/seconds-to-death"
+                    target="_blank"
+                  >
+                    Link
+                  </a>
+                </button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
@@ -127,7 +152,14 @@ const Portfolio = () => {
               </div>
 
               <div className="main-portfolio-text-box-links">
-                <button>Link</button>
+                <button>
+                  <a
+                    href="https://filipmachalowski.itch.io/offline"
+                    target="_blank"
+                  >
+                    Link
+                  </a>
+                </button>
               </div>
             </div>
             <div className="main-portfolio-text-box">
@@ -140,7 +172,7 @@ const Portfolio = () => {
                 </p>
               </div>
               <div className="main-portfolio-text-box-links">
-                <button>Link</button>
+                <button target="_blank">Link</button>
               </div>
             </div>
           </div>

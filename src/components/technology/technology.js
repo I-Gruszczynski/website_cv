@@ -31,7 +31,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenReact(true);
                 } else {
@@ -61,7 +61,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenNode(true);
                 } else {
@@ -91,7 +91,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenNet(true);
                 } else {
@@ -121,7 +121,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenBootstrap(true);
                 } else {
@@ -156,19 +156,19 @@ const Technology = () => {
               if (count % 2) {
                 document.querySelector(
                   ".main-technology-box-mainlang-html"
-                ).style.transform = "translate(-70px, 0px)";
+                ).style.transform = "translate(-80%, 0px)";
                 document.querySelector(
                   ".main-technology-box-mainlang-html"
                 ).style.transition = "transform 500ms ease-in-out";
                 document.querySelector(
                   ".main-technology-box-mainlang-css"
-                ).style.transform = "translate(-150px, 0px)";
+                ).style.transform = "translate(-180%, 0px)";
                 document.querySelector(
                   ".main-technology-box-mainlang-css"
                 ).style.transition = "transform 500ms ease-in-out";
                 document.querySelector(
                   ".main-technology-box-mainlang-js"
-                ).style.transform = "translate(-230px, 0px)";
+                ).style.transform = "translate(-280%, 0px)";
                 document.querySelector(
                   ".main-technology-box-mainlang-js"
                 ).style.transition = "transform 500ms ease-in-out";
@@ -225,7 +225,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenCsharp(true);
                 } else {
@@ -256,7 +256,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenSass(true);
                 } else {
@@ -287,7 +287,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenPhp(true);
                 } else {
@@ -320,7 +320,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenVisual(true);
                 } else {
@@ -351,7 +351,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenVisualStudio(true);
                 } else {
@@ -382,7 +382,7 @@ const Technology = () => {
                 count++;
                 console.log(count);
                 if (count % 2) {
-                  e.target.style.transform = "translate(-150px, 0px)";
+                  e.target.style.transform = "translate(-180%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenUnity(true);
                 } else {
@@ -415,13 +415,13 @@ const Technology = () => {
               if (count % 2) {
                 document.querySelector(
                   ".main-technology-box-database-mysql"
-                ).style.transform = "translate(-100px, 0px)";
+                ).style.transform = "translate(-120%, 0px)";
                 document.querySelector(
                   ".main-technology-box-database-mysql"
                 ).style.transition = "transform 500ms ease-in-out";
                 document.querySelector(
                   ".main-technology-box-database-mongo"
-                ).style.transform = "translate(100px, 0px)";
+                ).style.transform = "translate(120%, 0px)";
                 document.querySelector(
                   ".main-technology-box-database-mongo"
                 ).style.transition = "transform 500ms ease-in-out";
