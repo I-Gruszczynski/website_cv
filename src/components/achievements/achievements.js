@@ -101,6 +101,7 @@ const Achievements = () => {
           {certificates && (
             <div className="main-achievements-content-cert">
               <div className="main-achievements-content-cert-box">
+                <img src="./toeicLogo.jpg" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
                   <h3>
                     Test of English for International Communication (TOEiC)
@@ -116,6 +117,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-cert-box">
+                <img src="./logo-pol.jpg" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
                   <h3>Practical Aspects of VR Technology</h3>
                   <p>
@@ -128,6 +130,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-cert-box">
+                <img src="./nvidiaLogo.png" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
                   <h3>
                     NVIDIA - Fundamentionals of Deep Learning for computer

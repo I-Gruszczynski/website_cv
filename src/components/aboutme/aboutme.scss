@@ -15,14 +15,19 @@
   width: 39%;
   margin: 0% 5% 2.5% 5%;
   height: 140px;
-  border: 2px solid #3f1eb6;
+  border: 1px solid #3f1eb6;
   border-radius: 20px;
 }
 .main-aboutme-text-do-box-img {
   float: left;
-  width: 30%;
+  width: 25%;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-right: 5%;
+  height: 50px;
+  background-color: #3f1eb6;
+  border-radius: 20px 0px 0px 20px;
 }
 .main-aboutme-text-do-box-desc {
   padding-top: 10px;
@@ -37,13 +42,13 @@
   padding-right: 40px;
   margin-top: 5px;
 }
-.main-aboutme-text-lang > h2 {
-  margin-bottom: 0px;
-}
 .main-aboutme-text-lang-box {
   position: relative;
   width: 40%;
   float: left;
+}
+.main-aboutme-text-lang-box > p {
+  margin-top: 0px;
 }
 .main-aboutme-text-lang-bar-pl {
   position: absolute;
@@ -81,4 +86,66 @@
   width: 80%;
   height: 6px;
   margin: 0px;
+}
+
+@media screen and (max-width: 1400px) {
+  .main-aboutme-text-lang-box {
+    width: 50%;
+  }
+  .main-aboutme-text-do-box {
+    float: left;
+    width: 39%;
+    margin: 0% 5% 2.5% 5%;
+    height: 140px;
+    border: 1px solid #3f1eb6;
+    border-radius: 20px;
+  }
+  .main-aboutme-text-do-box-desc > p {
+    font-size: 12px;
+  }
+  .main-aboutme-text-do-box-desc > h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-aboutme-text > p {
+    font-size: 14px;
+  }
+  .main-aboutme-text-do-box {
+    clear: both;
+    width: 80%;
+    height: 100px;
+  }
+  .main-aboutme-text-do-box-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 60px;
+  }
+  .main-aboutme-text-do-box-img > svg {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main-aboutme-text > p {
+    font-size: 12px;
+  }
+  .main-aboutme-text-do-box {
+    clear: both;
+    width: 80%;
+    height: 90px;
+  }
+  .main-aboutme-text-do-box-img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 60px;
+  }
+  .main-aboutme-text-do-box-desc > h3 {
+    margin-top: 0px;
+  }
+  .main-aboutme-text-do-box-desc > p {
+    font-size: 10px;
+  }
+  .main-aboutme-text-lang-box > p {
+    font-size: 12px;
+  }
 }

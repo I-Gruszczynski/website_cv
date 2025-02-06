@@ -35,3 +35,25 @@
   border-radius: 20px;
   padding: 2.5% 5%;
 }
+@media screen and (max-width: 700px) {
+  .main-education {
+    padding: 10px;
+  }
+  .main-education-text-school {
+    width: 100%;
+    clear: both;
+    padding: 0px;
+  }
+  .main-education-text-school > p {
+    font-size: 14px;
+  }
+  .main-education-text-school:first-child {
+    border-right: none;
+  }
+  .main-education-text-school-header > h2 {
+    margin-top: 10px;
+  }
+  .main-education-text-school-context > p {
+    margin: 0px;
+  }
+}

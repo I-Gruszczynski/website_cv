@@ -1,22 +1,47 @@
 .mainInfo {
-  margin: 100px 20px;
+  margin: 100px 0px;
   text-align: center;
 }
 .mainInfo > h1 {
   font-weight: 300;
+  margin-bottom: 0px;
+}
+.mainInfo > h4 {
+  background-color: #f4f8f9;
+  width: 60%;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 20px;
+  color: #444;
+}
+
+.mainInfo-hobby {
+  text-align: left;
+  background-color: #f4f8f9;
+  margin: 0px;
+  padding: 10px 40px;
+  color: #444;
+  font-weight: 600;
 }
 .mainInfo-icons {
   margin: 0 auto;
   width: 120px;
-  height: 60px;
+  height: 50px;
 }
 .mainInfo-icons-box {
   float: left;
   margin: 5px;
 }
+.mainInfo-icons-box > a > svg:hover {
+  color: #3f1eb6 !important;
+  cursor: pointer;
+}
 .mainInfo-context {
   width: 70%;
   margin: 0 auto;
+}
+.mainInfo-context-break {
+  clear: both;
 }
 .mainInfo-context-location > p,
 .mainInfo-context-phonenumber > p,
@@ -37,12 +62,13 @@
 .mainInfo-context-location,
 .mainInfo-context-phonenumber,
 .mainInfo-context-email {
-  margin: 20px 0px;
+  margin: 10px 0px;
   height: 30px;
   width: 100%;
 }
+
 .mainInfo-context-location {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .mainInfo-btn > button {
   width: 220px;
@@ -54,10 +80,182 @@
   box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
   margin-top: 10px;
 }
+.mainInfo-btn > button > a > span {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 3px;
+}
 .mainInfo-btn > button:hover {
   background-color: #4d25dd;
   cursor: pointer;
 }
 .mainInfo-btn > button > svg {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1800px) {
+  .mainInfo {
+    margin: 100px 0px;
+    text-align: center;
+  }
+  .mainInfo > h1 {
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  .mainInfo > h4 {
+    background-color: #f4f8f9;
+    width: 60%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 20px;
+    color: #444;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .mainInfo {
+    margin: 100px 0px;
+    text-align: center;
+  }
+  .mainInfo > h1 {
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+  .mainInfo > h4 {
+    background-color: #f4f8f9;
+    width: 60%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 20px;
+    color: #444;
+    font-size: 14px;
+  }
+  .mainInfo-hobby {
+    font-size: 14px;
+  }
+  .mainInfo-context-location > p,
+  .mainInfo-context-phonenumber > p,
+  .mainInfo-context-email > p {
+    margin: 0px 10px;
+    font-size: 12px;
+  }
+  .mainInfo-btn > button {
+    width: 180px;
+    height: 60px;
+  }
+  .mainInfo-btn > button > a > span {
+    font-size: 14px;
+  }
+  .mainInfo-btn > button > a > svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mainInfo {
+    margin-top: 70px;
+  }
+  .mainInfo > h1 {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .mainInfo-context-location > svg,
+  .mainInfo-context-phonenumber > svg,
+  .mainInfo-context-email > svg {
+    display: none;
+  }
+  .mainInfo-hobby {
+    font-size: 12px;
+  }
+  .mainInfo-context-location > p,
+  .mainInfo-context-phonenumber > p,
+  .mainInfo-context-email > p {
+    font-size: 14px;
+    margin: 0px auto;
+  }
+  .mainInfo-context-location,
+  .mainInfo-context-phonenumber,
+  .mainInfo-context-email {
+    height: 20px;
+  }
+  .mainInfo-btn > button {
+    width: 140px;
+    height: 50px;
+  }
+  .mainInfo-btn > button > a > span {
+    font-size: 12px;
+  }
+  .mainInfo-icons {
+    margin: 0px 60px;
+  }
+  .mainInfo-icons-box > a > svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mainInfo {
+    height: 200px;
+    margin: 0px;
+  }
+  .mainInfo > h1 {
+    float: left;
+    margin-top: 10px;
+    font-size: 28px;
+    width: 100%;
+  }
+  .mainInfo > h4 {
+    float: left;
+    background-color: white;
+    width: auto;
+    border-radius: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    width: 100%;
+  }
+  .mainInfo-hobby {
+    background-color: white;
+    float: left;
+    width: 60%;
+    padding: 10px;
+  }
+  .mainInfo-hobby > p {
+    margin: 0px;
+  }
+  .mainInfo-icons {
+    clear: both;
+    height: 110px;
+    width: 50px;
+    margin: auto 20px;
+    float: left;
+  }
+  .mainInfo-context {
+    margin: 10px;
+    width: 100%;
+  }
+  .mainInfo-context-location,
+  .mainInfo-context-phonenumber,
+  .mainInfo-context-email {
+    width: 30%;
+    height: 20px;
+    float: left;
+    margin-top: 20px;
+  }
+  .mainInfo-btn {
+    width: 90%;
+    height: 80px;
+  }
+  .mainInfo-btn > button {
+    width: 200px;
+    margin-top: 40px;
+  }
+  .mainInfo-context-break {
+    clear: none;
+  }
 }

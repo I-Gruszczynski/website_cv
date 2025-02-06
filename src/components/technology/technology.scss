@@ -74,3 +74,116 @@
 .main-technology-box-img-active {
   background-color: #3f1eb6;
 }
+@media screen and (max-width: 1400px) {
+  .main-technology-box-img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-lang > img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-mainlang > img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-database > img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-lang-paragrath-active {
+    font-size: 12px;
+    width: 120px;
+  }
+  .main-technology-box-lang-paragrath {
+    font-size: 12px;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-technology-box > h3 {
+    font-size: 14px;
+  }
+  .main-technology-box-img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-lang > img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-mainlang > img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-database > img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-lang-paragrath-active {
+    font-size: 10px;
+    width: 100px;
+  }
+  .main-technology-box-lang-paragrath {
+    font-size: 10px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-technology-box > h3 {
+    font-size: 14px;
+  }
+  .main-technology-box-img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-lang > img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-mainlang > img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-database > img {
+    width: 45px;
+    height: 45px;
+  }
+  .main-technology-box-lang-paragrath-active {
+    font-size: 10px;
+    width: 100px;
+  }
+  .main-technology-box-lang-paragrath {
+    font-size: 10px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main-technology-box > h3 {
+    font-size: 14px;
+  }
+  .main-technology-box-img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-lang > img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-mainlang > img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-database > img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-technology-box-lang-paragrath-active {
+    font-size: 12px;
+    width: 120px;
+  }
+  .main-technology-box-lang-paragrath {
+    font-size: 12px;
+    width: 120px;
+  }
+}

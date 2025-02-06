@@ -43,24 +43,58 @@
   cursor: pointer;
 }
 .main-achievements-content-compet-box > img,
+.main-achievements-content-cert-box > img,
 .main-achievements-content-train-box > img {
   width: 10%;
   margin: 2.5%;
   float: left;
 }
 .main-achievements-content-compet-box-text,
-.main-achievements-content-train-box-text {
+.main-achievements-content-train-box-text,
+.main-achievements-content-cert-box-text {
   width: 70%;
   float: left;
 }
 .main-achievements-content-compet-box-text > p,
-.main-achievements-content-train-box-text > p {
+.main-achievements-content-train-box-text > p,
+.main-achievements-content-cert-box-text > p {
   margin-top: 5px;
 }
 .main-achievements-content-compet-box-text > h3,
-.main-achievements-content-train-box-text > h3 {
+.main-achievements-content-train-box-text > h3,
+.main-achievements-content-cert-box-text > h3 {
   margin-bottom: 0px;
 }
 .main-achievements-content-cert-box-text {
   width: 80%;
+}
+@media screen and (max-width: 700px) {
+  .main-achievements {
+    padding: 0px;
+  }
+  .main-achievements-content-compet-box-text > h3,
+  .main-achievements-content-train-box-text > h3,
+  .main-achievements-content-cert-box-text > h3 {
+    font-size: 14px;
+  }
+  .main-achievements-content-compet-box-text > p,
+  .main-achievements-content-train-box-text > p,
+  .main-achievements-content-cert-box-text > p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-achievements {
+    padding: 10px;
+  }
+  .main-achievements-content-compet-box-text > h3,
+  .main-achievements-content-train-box-text > h3,
+  .main-achievements-content-cert-box-text > h3 {
+    font-size: 16px;
+  }
+  .main-achievements-content-compet-box-text > p,
+  .main-achievements-content-train-box-text > p,
+  .main-achievements-content-cert-box-text > p {
+    font-size: 14px;
+  }
 }

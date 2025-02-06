@@ -26,7 +26,7 @@ const aboutme = () => {
           <h2>What I'm doing</h2>
           <div className="main-aboutme-text-do-box">
             <div className="main-aboutme-text-do-box-img">
-              <FaNewspaper size={50} color="#ccc" />
+              <FaNewspaper size={50} color="#fff" />
             </div>
             <div className="main-aboutme-text-do-box-desc">
               <h3>Web developer</h3>
@@ -38,7 +38,7 @@ const aboutme = () => {
           </div>
           <div className="main-aboutme-text-do-box">
             <div className="main-aboutme-text-do-box-img">
-              <IoLogoGameControllerB size={50} color="#ccc" />
+              <IoLogoGameControllerB size={50} color="#fff" />
             </div>
             <div className="main-aboutme-text-do-box-desc">
               <h3>Game developer</h3>
