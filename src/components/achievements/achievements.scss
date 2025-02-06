@@ -97,6 +97,12 @@
   .main-achievements-content-cert-box-text > p {
     font-size: 14px;
   }
+  .main-achievements-nav-active :last-child {
+    width: 160px;
+  }
+  .main-achievements-nav-noactive:last-child {
+    width: 160px;
+  }
 }
 @media screen and (max-width: 550px) {
   .main-achievements-bg {

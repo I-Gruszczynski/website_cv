@@ -54,6 +54,7 @@ const Achievements = () => {
             Trainings and volunteers
           </button>
         </div>
+        <div style={{ clear: "both" }}></div>
         <div className="main-achievements-content">
           {competitions && (
             <div className="main-achievements-content-compet">
