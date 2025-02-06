@@ -1,5 +1,5 @@
 import "./information.scss";
-import { FaGithub, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FiDownload } from "react-icons/fi";
@@ -21,8 +21,8 @@ const Information = () => {
           </a>
         </div>
         <div className="mainInfo-icons-box">
-          <a href="https://www.facebook.com/igor.gruszczynski.9">
-            <FaFacebookSquare size={30} color="#ccc" />
+          <a href="https://www.instagram.com/igor.grusz/">
+            <FaInstagram size={30} color="#ccc" />
           </a>
         </div>
       </div>

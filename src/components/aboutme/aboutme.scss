@@ -149,3 +149,35 @@
     font-size: 12px;
   }
 }
+@media screen and (max-width: 550px) {
+  .main-aboutme-bg {
+    margin: 00px;
+  }
+  .main-aboutme {
+    padding: 10px;
+  }
+  .main-aboutme-text > p {
+    font-size: 10px;
+  }
+  .main-aboutme-text-do-box {
+    height: 80px;
+  }
+  .main-aboutme-text-do-box-img {
+    height: 50px;
+  }
+  .main-aboutme-text-do-box-desc > p {
+    font-size: 8px;
+  }
+  .main-aboutme-text-lang-box > p {
+    font-size: 10px;
+  }
+  .main-aboutme-text-do > h2 {
+    font-size: 16px;
+  }
+  .main-aboutme-text-lang > h2 {
+    font-size: 16px;
+  }
+  .main-aboutme > h1 {
+    font-size: 18px;
+  }
+}

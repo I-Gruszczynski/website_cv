@@ -187,3 +187,48 @@
     width: 120px;
   }
 }
+@media screen and (max-width: 550px) {
+  .main-technology-bg {
+    margin: 0px;
+  }
+  .main-technology {
+    padding: 10px 0px;
+  }
+  .main-technology > h1 {
+    font-size: 18px;
+  }
+  .main-technology-bg {
+    margin: 10px;
+  }
+  .main-technology-box > h3 {
+    font-size: 12px;
+  }
+  .main-technology-box-img {
+    width: 30px;
+    height: 30px;
+  }
+  .main-technology-box-lang > img {
+    width: 30px;
+    height: 30px;
+  }
+  .main-technology-box-mainlang > img {
+    width: 30px;
+    height: 30px;
+  }
+  .main-technology-box-database {
+    margin-top: 30px;
+  }
+  .main-technology-box-database > img {
+    width: 30px;
+    height: 30px;
+    margin: auto 10px;
+  }
+  .main-technology-box-lang-paragrath-active {
+    font-size: 6px;
+    width: 50px;
+  }
+  .main-technology-box-lang-paragrath {
+    font-size: 6px;
+    width: 50px;
+  }
+}

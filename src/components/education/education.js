@@ -9,7 +9,10 @@ const Education = () => {
         <div className="main-education-text">
           <div className="main-education-text-school">
             <div className="main-education-text-school-header">
-              <img src="./logo-pol.jpg" alt="UNIVERSITY OG KAZIMIERZ WIELKI" />
+              <img
+                src="./images/logo-pol.jpg"
+                alt="UNIVERSITY OG KAZIMIERZ WIELKI"
+              />
               <h2>University of Kazimierz Wielki</h2>
             </div>
             <div className="main-education-text-school-context">
@@ -35,7 +38,7 @@ const Education = () => {
           <div className="main-education-text-school">
             <div className="main-education-text-school-header">
               <img
-                src="./Zhongnan_UEL_Logo.gif"
+                src="./images/Zhongnan_UEL_Logo.gif"
                 alt="ZHONGNAN UNIVERSITY OF ECONOMICS AND LAW"
               />
               <h2>Zhongnan University of Economics and Law</h2>

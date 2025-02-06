@@ -39,7 +39,7 @@ const Technology = () => {
                   SetIsOpenReact(false);
                 }
               }}
-              src="./reactIcon.png"
+              src="./images/reactIcon.png"
               alt="React"
               width={80}
               height={80}
@@ -69,7 +69,7 @@ const Technology = () => {
                   SetIsOpenNode(false);
                 }
               }}
-              src="./nodeIcon.png"
+              src="./images/nodeIcon.png"
               alt="Node"
               width={100}
               height={80}
@@ -99,7 +99,7 @@ const Technology = () => {
                   SetIsOpenNet(false);
                 }
               }}
-              src="./netIcon.png"
+              src="./images/netIcon.png"
               alt="Net"
               width={80}
               height={80}
@@ -129,7 +129,7 @@ const Technology = () => {
                   SetIsOpenBootstrap(false);
                 }
               }}
-              src="./bootstrapLogo.png"
+              src="./images/bootstrapLogo.png"
               alt="Bootstrap"
               width={80}
               height={80}
@@ -189,21 +189,21 @@ const Technology = () => {
           >
             <img
               className="main-technology-box-mainlang-html"
-              src="./htmlIcon.png"
+              src="./images/htmlIcon.png"
               alt="Html"
               width={80}
               height={80}
             />
             <img
               className="main-technology-box-mainlang-css"
-              src="./cssIcon.png"
+              src="./images/cssIcon.png"
               alt="Css"
               width={80}
               height={80}
             />
             <img
               className="main-technology-box-mainlang-js"
-              src="./jsIcon.png"
+              src="./images/jsIcon.png"
               alt="Javascript"
               width={80}
               height={80}
@@ -234,7 +234,7 @@ const Technology = () => {
                 }
               }}
               className="main-technology-box-img"
-              src="./csharpIcon.png"
+              src="./images/csharpIcon.png"
               alt="Csharp"
               width={80}
               height={80}
@@ -265,7 +265,7 @@ const Technology = () => {
                 }
               }}
               className="main-technology-box-img"
-              src="./sassIcon.png"
+              src="./images/sassIcon.png"
               alt="Sass"
               width={80}
               height={80}
@@ -296,7 +296,7 @@ const Technology = () => {
                 }
               }}
               className="main-technology-box-img"
-              src="./phpIcon.png"
+              src="./images/phpIcon.png"
               alt="Php"
               width={100}
               height={80}
@@ -329,7 +329,7 @@ const Technology = () => {
                 }
               }}
               className="main-technology-box-img"
-              src="./visualLogo.png"
+              src="./images/visualLogo.png"
               alt="Visual"
               width={80}
               height={80}
@@ -360,7 +360,7 @@ const Technology = () => {
                 }
               }}
               className="main-technology-box-img"
-              src="./visualstudioLogo.png"
+              src="./images/visualstudioLogo.png"
               alt="VisualStudio"
               width={80}
               height={80}
@@ -391,7 +391,7 @@ const Technology = () => {
                 }
               }}
               className="main-technology-box-img"
-              src="./unityIcon.png"
+              src="./images/unityIcon.png"
               alt="Unity"
               width={80}
               height={80}
@@ -439,14 +439,14 @@ const Technology = () => {
           >
             <img
               className="main-technology-box-database-mysql"
-              src="./mysqlIcon.png"
+              src="./images/mysqlIcon.png"
               alt="Mysql"
               width={80}
               height={80}
             />
             <img
               className="main-technology-box-database-mongo"
-              src="./mongoIcon.png"
+              src="./images/mongoIcon.png"
               alt="Mongo"
               width={80}
               height={80}

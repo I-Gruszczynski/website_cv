@@ -58,7 +58,7 @@ const Achievements = () => {
           {competitions && (
             <div className="main-achievements-content-compet">
               <div className="main-achievements-content-compet-box">
-                <img src="./cyberiadaLogo.jpg" alt="Cyberiada" />
+                <img src="./images/cyberiadaLogo.jpg" alt="Cyberiada" />
                 <div className="main-achievements-content-compet-box-text">
                   <h3>
                     National Computer Game Programming Competition "Cyberiada"
@@ -73,7 +73,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-compet-box">
-                <img src="./hackathonLogo.png" alt="Hackathon" />
+                <img src="./images/hackathonLogo.png" alt="Hackathon" />
                 <div className="main-achievements-content-compet-box-text">
                   <h3>Hackathon 2023</h3>
                   <p>
@@ -85,7 +85,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-compet-box">
-                <img src="./nokiaLogo.png" alt="Nokiathon" />
+                <img src="./images/nokiaLogo.png" alt="Nokiathon" />
                 <div className="main-achievements-content-compet-box-text">
                   <h3>Nokiathon 2023</h3>
                   <p>
@@ -101,7 +101,7 @@ const Achievements = () => {
           {certificates && (
             <div className="main-achievements-content-cert">
               <div className="main-achievements-content-cert-box">
-                <img src="./toeicLogo.jpg" alt="Curba de Cultura" />
+                <img src="./images/toeicLogo.jpg" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
                   <h3>
                     Test of English for International Communication (TOEiC)
@@ -117,7 +117,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-cert-box">
-                <img src="./logo-pol.jpg" alt="Curba de Cultura" />
+                <img src="./images/logo-pol.jpg" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
                   <h3>Practical Aspects of VR Technology</h3>
                   <p>
@@ -130,7 +130,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-cert-box">
-                <img src="./nvidiaLogo.png" alt="Curba de Cultura" />
+                <img src="./images/nvidiaLogo.png" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
                   <h3>
                     NVIDIA - Fundamentionals of Deep Learning for computer
@@ -149,7 +149,7 @@ const Achievements = () => {
           {training && (
             <div className="main-achievements-content-train">
               <div className="main-achievements-content-train-box">
-                <img src="./verdesurLogo.png" alt="Verde Sur" />
+                <img src="./images/verdesurLogo.png" alt="Verde Sur" />
                 <div className="main-achievements-content-train-box-text">
                   <h3>
                     Volunteering in Spain with a program “Step to the future
@@ -167,7 +167,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-train-box">
-                <img src="./cubraLogo.jpg" alt="Curba de Cultura" />
+                <img src="./images/cubraLogo.jpg" alt="Curba de Cultura" />
                 <div className="main-achievements-content-train-box-text">
                   <h3>
                     Training course in Romania with a program “STRONGER
@@ -186,7 +186,7 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-train-box">
-                <img src="./campLogo.png" alt="Camp Leaders" />
+                <img src="./images/campLogo.png" alt="Camp Leaders" />
                 <div className="main-achievements-content-train-box-text">
                   <h3>
                     Work & Travel programme - support staff in camp wah-nee in

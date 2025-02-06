@@ -82,7 +82,7 @@ function App() {
     <div className="App">
       <div className="main-mybio">
         <img
-          src="./279726132_4860771730687869_5937944396472994506_n.jpg"
+          src="./images/279726132_4860771730687869_5937944396472994506_n.jpg"
           width={150}
           height={150}
           alt="Igor"

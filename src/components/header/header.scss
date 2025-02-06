@@ -79,3 +79,13 @@
     margin: 0 2%;
   }
 }
+@media screen and (max-width: 550px) {
+  .main-header {
+    top: -60px;
+  }
+  .main-header-list > ul > li {
+    margin: 0%;
+    width: 18.5%;
+    font-size: 8px;
+  }
+}

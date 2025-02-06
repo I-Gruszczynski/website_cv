@@ -1,6 +1,6 @@
 .App {
   font-family: "Raleway", serif;
-  background-image: url("/public/4852238.jpg");
+  background-image: url("/public/images/4852238.jpg");
   background-size: 100%;
   height: 100vh;
   width: 100vw;
@@ -135,5 +135,16 @@
     width: 80px;
     height: 80px;
     margin: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main-mybio {
+    margin-top: 0px;
+    height: 50vh;
+  }
+  .main-mybio > img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
   }
 }

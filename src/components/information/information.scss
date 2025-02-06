@@ -80,6 +80,9 @@
   box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.25);
   margin-top: 10px;
 }
+.mainInfo-btn > button > a {
+  text-decoration: none;
+}
 .mainInfo-btn > button > a > span {
   text-decoration: none;
   color: white;
@@ -257,5 +260,34 @@
   }
   .mainInfo-context-break {
     clear: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mainInfo > h1 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .mainInfo > h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .mainInfo-hobby {
+    padding: 0px;
+    width: 70%;
+  }
+  .mainInfo-icons {
+    width: 30px;
+  }
+  .mainInfo-context-location,
+  .mainInfo-context-phonenumber,
+  .mainInfo-context-email {
+    width: 25%;
+    height: 20px;
+    float: left;
+  }
+  .mainInfo-context-location > p,
+  .mainInfo-context-phonenumber > p,
+  .mainInfo-context-email > p {
+    font-size: 10px;
   }
 }

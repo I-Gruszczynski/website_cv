@@ -57,3 +57,32 @@
     margin: 0px;
   }
 }
+@media screen and (max-width: 550px) {
+  .main-education-bg {
+    margin: 0px;
+  }
+  .main-education {
+    padding: 10px;
+  }
+  .main-education > h1 {
+    font-size: 18px;
+  }
+  .main-education-text-school-header {
+    height: 80px;
+  }
+  .main-education-text-school-header > h2 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .main-education-text-school-header > img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+  }
+  .main-education-text-school > p {
+    font-size: 10px;
+  }
+  .main-education-text-school-context > p {
+    font-size: 12px;
+  }
+}

@@ -98,3 +98,41 @@
     font-size: 14px;
   }
 }
+@media screen and (max-width: 550px) {
+  .main-achievements-bg {
+    margin: 00px;
+  }
+  .main-achievements {
+    padding: 10px;
+  }
+  .main-achievements > h1 {
+    font-size: 18px;
+  }
+  .main-achievements-nav > button {
+    float: left;
+    font-size: 8px;
+    height: 30px;
+    width: 60px;
+    margin: 5px;
+  }
+  .main-achievements-content-compet-box > img,
+  .main-achievements-content-cert-box > img,
+  .main-achievements-content-train-box > img {
+    width: 20%;
+  }
+  .main-achievements-content-compet-box-text,
+  .main-achievements-content-train-box-text,
+  .main-achievements-content-cert-box-text {
+    width: 65%;
+  }
+  .main-achievements-content-compet-box-text > h3,
+  .main-achievements-content-train-box-text > h3,
+  .main-achievements-content-cert-box-text > h3 {
+    font-size: 14px;
+  }
+  .main-achievements-content-compet-box-text > p,
+  .main-achievements-content-train-box-text > p,
+  .main-achievements-content-cert-box-text > p {
+    font-size: 11px;
+  }
+}
