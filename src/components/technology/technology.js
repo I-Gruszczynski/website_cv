@@ -3,6 +3,8 @@ import "./technology.scss";
 
 const Technology = () => {
   let count = 0;
+
+  let [countState, SetCountState] = useState(1);
   const [isOpenReact, SetIsOpenReact] = useState(false);
   const [isOpenNode, SetIsOpenNode] = useState(false);
   const [isOpenNet, SetIsOpenNet] = useState(false);
@@ -28,10 +30,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenReact(true);
                 } else {
@@ -58,10 +60,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenNode(true);
                 } else {
@@ -88,10 +90,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenNet(true);
                 } else {
@@ -118,10 +120,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenBootstrap(true);
                 } else {
@@ -151,9 +153,9 @@ const Technology = () => {
           <div
             className="main-technology-box-mainlang"
             onClick={(e) => {
-              count++;
-              console.log(count);
-              if (count % 2) {
+              SetCountState(countState + 1);
+              console.log(countState);
+              if (countState % 2) {
                 document.querySelector(
                   ".main-technology-box-mainlang-html"
                 ).style.transform = "translate(-40%, 0px)";
@@ -222,10 +224,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenCsharp(true);
                 } else {
@@ -253,10 +255,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenSass(true);
                 } else {
@@ -284,10 +286,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenPhp(true);
                 } else {
@@ -317,10 +319,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenVisual(true);
                 } else {
@@ -348,10 +350,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenVisualStudio(true);
                 } else {
@@ -379,10 +381,10 @@ const Technology = () => {
           <div className="main-technology-box-lang">
             <img
               onClick={(e) => {
-                count++;
-                console.log(count);
-                if (count % 2) {
-                  e.target.style.transform = "translate(-140%, 0px)";
+                SetCountState(countState + 1);
+                console.log(countState);
+                if (countState % 2) {
+                  e.target.style.transform = "translate(-150%, 0px)";
                   e.target.style.transition = "transform 500ms ease-in-out";
                   SetIsOpenUnity(true);
                 } else {
@@ -410,9 +412,9 @@ const Technology = () => {
           <div
             className="main-technology-box-database"
             onClick={(e) => {
-              count++;
-              console.log(count);
-              if (count % 2) {
+              SetCountState(countState + 1);
+              console.log(countState);
+              if (countState % 2) {
                 document.querySelector(
                   ".main-technology-box-database-mysql"
                 ).style.transform = "translate(-90%, 0px)";
