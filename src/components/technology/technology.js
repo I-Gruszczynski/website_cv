@@ -2,8 +2,6 @@ import { useState } from "react";
 import "./technology.scss";
 
 const Technology = () => {
-  let count = 0;
-
   let [countState, SetCountState] = useState(1);
   const [isOpenReact, SetIsOpenReact] = useState(false);
   const [isOpenNode, SetIsOpenNode] = useState(false);
@@ -39,6 +37,7 @@ const Technology = () => {
                 } else {
                   e.target.style.transform = "translate(0px, 0px)";
                   SetIsOpenReact(false);
+                  SetCountState(1);
                 }
               }}
               src="./images/reactIcon.png"
@@ -69,6 +68,7 @@ const Technology = () => {
                 } else {
                   e.target.style.transform = "translate(0px, 0px)";
                   SetIsOpenNode(false);
+                  SetCountState(1);
                 }
               }}
               src="./images/nodeIcon.png"

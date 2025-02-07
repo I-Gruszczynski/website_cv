@@ -266,10 +266,12 @@
   .mainInfo > h1 {
     text-align: left;
     padding-left: 20px;
+    width: 90%;
   }
   .mainInfo > h4 {
     text-align: left;
     padding-left: 20px;
+    width: 90%;
   }
   .mainInfo-hobby {
     padding: 0px;
@@ -277,6 +279,9 @@
   }
   .mainInfo-icons {
     width: 30px;
+  }
+  .mainInfo-context {
+    width: 96%;
   }
   .mainInfo-context-location,
   .mainInfo-context-phonenumber,

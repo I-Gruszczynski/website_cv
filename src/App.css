@@ -1,3 +1,7 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
 .App {
   font-family: "Raleway", serif;
   background-image: url("/public/images/4852238.jpg");
@@ -146,6 +150,6 @@
     margin: 10px;
   }
   .main-content-text {
-    height: 90vh;
+    height: 100vh;
   }
 }
