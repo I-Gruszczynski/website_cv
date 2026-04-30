@@ -117,7 +117,7 @@ const Portfolio = () => {
           <div className="main-portfolio-text">
             {paginatedData.map((item, index) => (
               <div className="main-portfolio-text-box" key={index}>
-                <h2>{item.title}</h2>
+                <h3>{item.title}</h3>
                 <div className="main-portfolio-text-box-desc">
                   <p>{item.desc}</p>
                 </div>

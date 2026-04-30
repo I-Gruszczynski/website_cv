@@ -131,8 +131,8 @@ const Technology = () => {
                   SetIsOpenBootstrap(false);
                 }
               }}
-              src="./images/bootstrapLogo.png"
-              alt="Bootstrap"
+              src="./images/vueLogo.png"
+              alt="Vue"
               width={80}
               height={80}
             />
@@ -143,8 +143,8 @@ const Technology = () => {
                   : "main-technology-box-lang-paragrath"
               }
             >
-              Bootstrap is the HTML and CSS framework for developing responsive
-              websites.
+              Vue.js front end JavaScript framework for building user interfaces
+              and single-page applications.
             </p>
           </div>
         </div>
@@ -157,33 +157,33 @@ const Technology = () => {
               console.log(countState);
               if (countState % 2) {
                 document.querySelector(
-                  ".main-technology-box-mainlang-html"
+                  ".main-technology-box-mainlang-html",
                 ).style.transform = "translate(-40%, 0px)";
                 document.querySelector(
-                  ".main-technology-box-mainlang-html"
+                  ".main-technology-box-mainlang-html",
                 ).style.transition = "transform 500ms ease-in-out";
                 document.querySelector(
-                  ".main-technology-box-mainlang-css"
+                  ".main-technology-box-mainlang-css",
                 ).style.transform = "translate(-140%, 0px)";
                 document.querySelector(
-                  ".main-technology-box-mainlang-css"
+                  ".main-technology-box-mainlang-css",
                 ).style.transition = "transform 500ms ease-in-out";
                 document.querySelector(
-                  ".main-technology-box-mainlang-js"
+                  ".main-technology-box-mainlang-js",
                 ).style.transform = "translate(-240%, 0px)";
                 document.querySelector(
-                  ".main-technology-box-mainlang-js"
+                  ".main-technology-box-mainlang-js",
                 ).style.transition = "transform 500ms ease-in-out";
                 SetIsOpenHtml(true);
               } else {
                 document.querySelector(
-                  ".main-technology-box-mainlang-html"
+                  ".main-technology-box-mainlang-html",
                 ).style.transform = "translate(0px, 0px)";
                 document.querySelector(
-                  ".main-technology-box-mainlang-css"
+                  ".main-technology-box-mainlang-css",
                 ).style.transform = "translate(0px, 0px)";
                 document.querySelector(
-                  ".main-technology-box-mainlang-js"
+                  ".main-technology-box-mainlang-js",
                 ).style.transform = "translate(0px, 0px)";
                 SetIsOpenHtml(false);
               }
@@ -416,24 +416,24 @@ const Technology = () => {
               console.log(countState);
               if (countState % 2) {
                 document.querySelector(
-                  ".main-technology-box-database-mysql"
+                  ".main-technology-box-database-mysql",
                 ).style.transform = "translate(-90%, 0px)";
                 document.querySelector(
-                  ".main-technology-box-database-mysql"
+                  ".main-technology-box-database-mysql",
                 ).style.transition = "transform 500ms ease-in-out";
                 document.querySelector(
-                  ".main-technology-box-database-mongo"
+                  ".main-technology-box-database-mongo",
                 ).style.transform = "translate(90%, 0px)";
                 document.querySelector(
-                  ".main-technology-box-database-mongo"
+                  ".main-technology-box-database-mongo",
                 ).style.transition = "transform 500ms ease-in-out";
                 SetIsOpenData(true);
               } else {
                 document.querySelector(
-                  ".main-technology-box-database-mysql"
+                  ".main-technology-box-database-mysql",
                 ).style.transform = "translate(0px, 0px)";
                 document.querySelector(
-                  ".main-technology-box-database-mongo"
+                  ".main-technology-box-database-mongo",
                 ).style.transform = "translate(0px, 0px)";
                 SetIsOpenData(false);
               }
