@@ -118,14 +118,16 @@ const Achievements = () => {
               </div>
               <div style={{ clear: "both" }}></div>
               <div className="main-achievements-content-cert-box">
-                <img src="./images/logo-pol.jpg" alt="Curba de Cultura" />
+                <img src="./images/logo-pol.png" alt="Curba de Cultura" />
                 <div className="main-achievements-content-cert-box-text">
-                  <h3>Practical Aspects of VR Technology</h3>
+                  <h3>Hanyu Shuiping Kaoshi (HSK) Level 3</h3>
                   <p>
-                    Participation in a training aimed at learning how to develop
-                    games in VR technology based on the Unity engine. The
-                    training was organized by UKW universities as part of the
-                    project entitled "Stawiamy na rozwój UKW".
+                    Successful completion of the HSK Level 3 exam, which allows
+                    you to effectively assess your Chinese language skills and
+                    determine the degree of effective communication in everyday
+                    situations and basic professional interactions. The exam was
+                    organized by Chinese Testing International in cooperation
+                    with the Confucius Institute.
                   </p>
                 </div>
               </div>

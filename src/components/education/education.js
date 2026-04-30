@@ -10,7 +10,7 @@ const Education = () => {
           <div className="main-education-text-school">
             <div className="main-education-text-school-header">
               <img
-                src="./images/logo-pol.jpg"
+                src="./images/logoUKW.jpg"
                 alt="UNIVERSITY OG KAZIMIERZ WIELKI"
               />
               <h2>University of Kazimierz Wielki</h2>

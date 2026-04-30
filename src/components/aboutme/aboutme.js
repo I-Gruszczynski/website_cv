@@ -67,7 +67,7 @@ const aboutme = () => {
               <span
                 style={{ left: "58%", position: "relative", color: "#888" }}
               >
-                B2
+                C1
               </span>
             </div>
             <div className="main-aboutme-text-lang-box">
@@ -77,17 +77,7 @@ const aboutme = () => {
               <span
                 style={{ left: "18%", position: "relative", color: "#888" }}
               >
-                A1
-              </span>
-            </div>
-            <div className="main-aboutme-text-lang-box">
-              <p>Japanese</p>
-              <hr className="main-aboutme-text-lang-bar-jp" />
-              <hr className="main-aboutme-text-lang-bar-full" />
-              <span
-                style={{ left: "18%", position: "relative", color: "#888" }}
-              >
-                A1
+                HSK3
               </span>
             </div>
           </div>

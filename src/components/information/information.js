@@ -43,7 +43,7 @@ const Information = () => {
         <div className="mainInfo-context-break"></div>
         <div className="mainInfo-context-phonenumber">
           <FaPhone size={20} color="#3f1eb6" />
-          <p>+86 123 123 123</p>
+          <p>+86 155 2759 5200</p>
         </div>
         <div className="mainInfo-context-break"></div>
         <div className="mainInfo-context-email">
@@ -54,7 +54,7 @@ const Information = () => {
 
         <div className="mainInfo-btn">
           <button>
-            <a href="https://drive.google.com/uc?export=download&id=1r6Wkv4FR2zjSgw5RHHszAsCp3wEVxVNP">
+            <a href="https://drive.google.com/uc?export=download&id=1k_kjoV-EmakiwcJo1TjXTD6sGpoZOEq2">
               <FiDownload color="#fff" size={22} />
               <span>Download CV</span>
             </a>
